@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_posts"
+        android:icon="@drawable/ic_forum_black_24dp"
+        android:title="Posts" />
+
+    <item
+        android:id="@+id/nav_lovers"
+        android:icon="@drawable/ic_favorite_black_menu_24dp"
+        android:title="Loves" />
+
+</menu>

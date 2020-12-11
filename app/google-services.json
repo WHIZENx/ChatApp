@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "29861026206",
+    "firebase_url": "https://chatapp-whizenx.firebaseio.com",
+    "project_id": "chatapp-whizenx",
+    "storage_bucket": "chatapp-whizenx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29861026206:android:14ec00371f9ef306",
+        "android_client_info": {
+          "package_name": "com.cmu.surrussent.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29861026206-q95gpfqmhn442u2hvvctllmsubs892i7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cmu.surrussent.chatapp",
+            "certificate_hash": "9270b3cf1527603c7472f1e52627dfa272f77271"
+          }
+        },
+        {
+          "client_id": "29861026206-milkoa4di3nkbo8mk94sm66grldi4lem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEHyCWxUX2K1C9NqwJqfDmx0Ze8YUP1MQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29861026206-milkoa4di3nkbo8mk94sm66grldi4lem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

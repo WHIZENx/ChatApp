@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app.Chat.Fragments.UsersFragment">
+
+    <RelativeLayout
+        android:layout_marginTop="52dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/background_gradient_toolbar">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="?attr/colorPrimary">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/drawer_post">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:hint="Search..."
+                android:textColorHint="?attr/text_gray"
+                android:id="@+id/search_users"
+                android:background="?attr/colorPrimary"
+                android:textColor="?attr/textcolor"
+                android:inputType="textPersonName"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/ico_s"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_search_black_24dp"
+            android:background="?attr/colorPrimary"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/search_users"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="52dp"/>
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:hint="Search..."-->
+        <!--android:textColor="?attr/textcolor"-->
+        <!--android:id="@+id/search_users"/>-->
+
+</FrameLayout>

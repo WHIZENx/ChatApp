@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/profile_image_commend"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/username_commend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toStartOf="@id/profile_image_commend"
+        android:layout_toEndOf="@id/profile_image_commend"
+        android:text="username"
+        android:textColor="?attr/textcolor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_below="@+id/username_commend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/commendid"
+        android:textSize="16sp"
+        android:textColor="?attr/text_gray"
+        android:text="command"
+        android:layout_marginLeft="60dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/date_commend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:textColor="?attr/text_gray"
+        android:textSize="10sp"
+        android:layout_alignParentEnd="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorSettings"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/commendid"/>
+
+</RelativeLayout>

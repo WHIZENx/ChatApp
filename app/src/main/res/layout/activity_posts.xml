@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    tools:context=".app.Chat.Popup.PostsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/backgroundcolor">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/backgroundcolor">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:cardBackgroundColor="?attr/cardviewcolor">
+
+                <ImageView
+                    android:id="@+id/img_post_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/ic_launcher_background" />
+
+            </android.support.v7.widget.CardView>
+
+            <ImageView
+                android:id="@+id/ico_del"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="8dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_delete_black_24dp"
+                android:layout_marginTop="260dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_post"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="258dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txt_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:layout_toRightOf="@+id/img_post"
+                android:layout_marginTop="258dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="?attr/textcolor"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/txt_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="288dp"
+                android:layout_toRightOf="@+id/img_post"
+                android:text="Post Date:"
+                android:layout_marginLeft="15dp"
+                android:textColor="?attr/text_gray"
+                android:textSize="12dp" />
+
+            <View
+                android:id="@+id/view01"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorSettings"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/txt_date"/>
+
+            <TextView
+                android:id="@+id/txt_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view01"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="?attr/textcolor"
+                android:textSize="17dp"
+                android:text="Description"/>
+
+            <View
+                android:id="@+id/view02"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorSettings"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/txt_des"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_commend"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/view02"
+                android:src="@mipmap/ic_launcher"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <RelativeLayout
+                android:id="@+id/txt_post_commend"
+                android:layout_below="@+id/view02"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_toRightOf="@+id/img_commend"
+                android:background="@drawable/drawer_post_command">
+
+                <EditText
+                    android:id="@+id/commend_post_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="10dp"
+                    android:hint="Comment here..."
+                    android:textColorHint="?attr/text_gray"
+                    android:ems="12"
+                    android:inputType="textPersonName"
+                    android:background="?attr/cardviewcolor"
+                    android:textColor="?attr/text_gray"
+                    android:textSize="13dp"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/add_commend"
+                android:layout_below="@+id/view02"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:background="@drawable/reg_btn_style"
+                android:layout_toRightOf="@+id/txt_post_commend"
+                android:layout_marginLeft="-70dp"
+                android:text="Add"
+                android:layout_marginTop="12dp"
+                android:textColor="?attr/textcolorbar"/>
+
+            <TextView
+                android:layout_below="@+id/img_commend"
+                android:id="@+id/txt_count_commend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="40dp"
+                android:text="Comment:"
+                android:textColor="?attr/text_gray"
+                android:textSize="13dp" />
+
+            <android.support.v7.widget.CardView
+                android:layout_below="@+id/txt_count_commend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="?attr/cardviewcolor">
+
+                <!--<android.support.v7.widget.RecyclerView-->
+                    <!--android:id="@+id/commendRV"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent" />-->
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView >
+

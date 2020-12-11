@@ -1,0 +1,454 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="cardviewcolor">#ffffff</item>
+        <item name="backgroundcolor">#F5F5F5</item>
+        <item name="textcolor">#000000</item>
+        <item name="text_gray">#808080</item>
+        <item name="bubble">@color/colorPrimary</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="textbar">#000</item>
+        <item name="textcolorbar">#000000</item>
+        <item name="textchat">#ffffff</item>
+    </style>
+
+    <style name="darktheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="cardviewcolor">#424242</item>
+        <item name="backgroundcolor">#303030</item>
+        <item name="textcolor">#ffffff</item>
+        <item name="text_gray">#B6B6B6</item>
+        <item name="bubble">#212121</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="textbar">#ffffff</item>
+        <item name="textcolorbar">#ffffff</item>
+        <item name="textchat">#ffffff</item>
+    </style>
+
+    <style name="AppTheme_Home" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="darktheme_home" parent="darktheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ToolbarOverlayTheme" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="background">?attr/colorPrimary</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="WindowAnimationTransition" >
+        <item name="android:windowEnterAnimation" > @android:anim/fade_in</item>
+        <item name="android:windowExitAnimation"> @android:anim/fade_out</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_red" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/red_colorPrimaryDark</item>
+        <item name="colorAccent">@color/red_colorAccent</item>
+        <item name="bubble">@color/red_colorPrimary</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_pink" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/pink_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/pink_colorPrimaryDark</item>
+        <item name="colorAccent">@color/pink_colorAccent</item>
+        <item name="bubble">@color/pink_colorPrimary</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_darkpink" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darkpink_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkpink_colorPrimary</item>
+        <item name="colorAccent">@color/darkpink_colorAccent</item>
+        <item name="bubble">@color/darkpink_colorPrimary</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_violet" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/violet_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/violet_colorPrimaryDark</item>
+        <item name="colorAccent">@color/violet_colorAccent</item>
+        <item name="bubble">@color/violet_colorPrimary</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_blue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/blue_colorPrimaryDark</item>
+        <item name="colorAccent">@color/blue_colorAccent</item>
+        <item name="bubble">@color/blue_colorPrimary</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_lightblue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2196f3</item>
+        <item name="colorPrimaryDark">@color/blue_colorPrimary</item>
+        <item name="colorAccent">@color/blue_colorAccent</item>
+        <item name="bubble">#2196f3</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_skyblue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/skyblue_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/skyblue_colorPrimaryDark</item>
+        <item name="colorAccent">@color/skyblue_colorAccent</item>
+        <item name="bubble">@color/skyblue_colorPrimary</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_lightskyblue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#00bcd4</item>
+        <item name="colorPrimaryDark">@color/skyblue_colorPrimary</item>
+        <item name="colorAccent">@color/skyblue_colorAccent</item>
+        <item name="bubble">#00bcd4</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_blackgreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#009688</item>
+        <item name="colorPrimaryDark">@color/green_colorPrimary</item>
+        <item name="colorAccent">@color/green_colorAccent</item>
+        <item name="bubble">#009688</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_green" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/green_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/green_colorPrimaryDark</item>
+        <item name="colorAccent">@color/green_colorAccent</item>
+        <item name="bubble">@color/green_colorPrimary</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_lightgreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#8bc34a</item>
+        <item name="colorPrimaryDark">@color/green_colorPrimary</item>
+        <item name="colorAccent">@color/green_colorAccent</item>
+        <item name="bubble">#8bc34a</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_skygreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#cddc39</item>
+        <item name="colorPrimaryDark">#8bc34a</item>
+        <item name="colorAccent">@color/green_colorAccent</item>
+        <item name="bubble">#cddc39</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_yellow" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ffeb3b</item>
+        <item name="colorPrimaryDark">#ffc107</item>
+        <item name="colorAccent">@color/green_colorAccent</item>
+        <item name="bubble">#ffeb3b</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_lightorange" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ffc107</item>
+        <item name="colorPrimaryDark">@color/grey_colorAccent</item>
+        <item name="colorAccent">@color/green_colorAccent</item>
+        <item name="bubble">#ffc107</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_orange" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ff9800</item>
+        <item name="colorPrimaryDark">#ff8400</item>
+        <item name="colorAccent">@color/green_colorAccent</item>
+        <item name="bubble">#ff9800</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_darkorange" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ff5722</item>
+        <item name="colorPrimaryDark">#ff3222</item>
+        <item name="colorAccent">@color/green_colorAccent</item>
+        <item name="bubble">#ff5722</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_grey" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/grey_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/grey_colorPrimaryDark</item>
+        <item name="colorAccent">@color/grey_colorAccent</item>
+        <item name="bubble">@color/grey_colorPrimary</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_brown" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brown_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/brown_colorPrimaryDark</item>
+        <item name="colorAccent">@color/brown_colorAccent</item>
+        <item name="bubble">@color/brown_colorPrimary</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_darkgrey" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#607d8b</item>
+        <item name="colorPrimaryDark">@color/grey_colorPrimary</item>
+        <item name="colorAccent">#ffc107</item>
+        <item name="bubble">#607d8b</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#fcfcfc</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_black" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="textcolorbar">#ffffff</item>
+        <item name="bubble">#212121</item>
+        <item name="selected">#fcfcfc</item>
+        <item name="unselected">#747474</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_white" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ffff</item>
+        <item name="colorPrimaryDark">#808080</item>
+        <item name="colorAccent">#000</item>
+        <item name="bubble">#ffff</item>
+        <item name="textbar">#000</item>
+        <item name="textchat">#000000</item>
+        <item name="textcolorbar">#000000</item>
+        <item name="selected">#202020</item>
+        <item name="unselected">#A7A7A7</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme_red_home" parent="AppTheme_red">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_pink_home" parent="AppTheme_pink">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_darkpink_home" parent="AppTheme_darkpink">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_violet_home" parent="AppTheme_violet">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_blue_home" parent="AppTheme_blue">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_lightblue_home" parent="AppTheme_lightblue">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_skyblue_home" parent="AppTheme_skyblue">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_lightskyblue_home" parent="AppTheme_lightskyblue">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_blackgreen_home" parent="AppTheme_green">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_green_home" parent="AppTheme_green">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_lightgreen_home" parent="AppTheme_lightgreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_skygreen_home" parent="AppTheme_skygreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_yellow_home" parent="AppTheme_yellow">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_lightorange_home" parent="AppTheme_lightorange">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_orange_home" parent="AppTheme_orange">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_darkorange_home" parent="AppTheme_darkorange">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_grey_home" parent="AppTheme_grey">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_darkgrey_home" parent="AppTheme_darkgrey">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_brown_home" parent="AppTheme_brown">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_black_home" parent="AppTheme_black">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_white_home" parent="AppTheme_white">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <color name="red_colorPrimary">#ff0000</color>
+    <color name="red_colorPrimaryDark">#DF0000</color>
+    <color name="red_colorAccent">#F7F72D</color>
+
+    <color name="pink_colorPrimary">#e91e63</color>
+    <color name="pink_colorPrimaryDark">#CB1755</color>
+    <color name="pink_colorAccent">#2095f2</color>
+
+    <color name="darkpink_colorPrimary">#9b26af</color>
+    <color name="darkpink_colorPrimaryDark">#7a1ea1</color>
+    <color name="darkpink_colorAccent">#f34235</color>
+
+    <color name="violet_colorPrimary">#6639b6</color>
+    <color name="violet_colorPrimaryDark">#502ca7</color>
+    <color name="violet_colorAccent">#e81d62</color>
+
+    <color name="blue_colorPrimary">#3F51B5</color>
+    <color name="blue_colorPrimaryDark">#3445A2</color>
+    <color name="blue_colorAccent">#e81d62</color>
+
+    <color name="skyblue_colorPrimary">#03A9F4</color>
+    <color name="skyblue_colorPrimaryDark">#0094D7</color>
+    <color name="skyblue_colorAccent">#fec006</color>
+
+    <color name="green_colorPrimary">#4CAF50</color>
+    <color name="green_colorPrimaryDark">#419744</color>
+    <color name="green_colorAccent">#785447</color>
+
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#3445A2</color>-->
+
+    <color name="grey_colorPrimary">#9d9d9d</color>
+    <color name="grey_colorPrimaryDark">#606060</color>
+    <color name="grey_colorAccent">#f90</color>
+
+    <color name="brown_colorPrimary">#795548</color>
+    <color name="brown_colorPrimaryDark">#63453B</color>
+    <color name="brown_colorAccent">#e81d62</color>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar.Light" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="MenuStyle" parent="Theme.AppCompat.Light">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="PauseDialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+</resources>
