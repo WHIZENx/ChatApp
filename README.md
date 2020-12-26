@@ -11,7 +11,7 @@
 
 ![Login](https://www.img.in.th/images/19686fdb611b9c5ad1f6a43226eea8a5.png "Login")
 > Support Colors Theme, Dark Mode 
-> - Slide Left to Right in the left corner
+> - Slide Left to Right in the left corner > Settings
 
 - Main Interface
 
