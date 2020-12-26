@@ -19,11 +19,11 @@
 
 - Chat Interface
 
-![Main](https://www.img.in.th/images/bdc200a690c360eba36172a7326be95d.png "Main")
+![Chat](https://www.img.in.th/images/bdc200a690c360eba36172a7326be95d.png "Chat")
 > Sent Chat in Real time with Notification by Firebase Real-Time
 
 
-## อยากจะพัฒนาเกมต่อ?
+## อยากจะพัฒนาแอพต่อ?
 > ควรทำความเข้าใจการ clone ผ่านทาง android studio เพื่อง่ายต่อการดึงข้อมูลมาพัฒนาต่อ
 - แอพของเรา สามารถนำไปเขียนต่อเพื่อพัฒนาได้ทุกๆคน
  
